@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+/.pnpm
+/.yarn
+
+# next.js build output
+/.next/
+/out/
+
+# production
+/build
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+*.pem
+*.log
+tsc_output*.txt
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# C binaries
+/c-implementation/parcelhub
+/c-implementation/parcelhub.exe
+/c-implementation/*.o
